@@ -246,7 +246,7 @@ export default function Home() {
                     </div>
                     <picture>
                       <source srcSet="/review.jfif" media="(min-width: 768px)" />
-                      <source srcSet="/review2.jpg" media="(min-width: 768px)" />
+                      <img src="/review2.jpg" alt="นิดา" className="w-[300px] h-[300px] object-cover rounded-full self-center" />
                     </picture>
                   </footer>
                 </article>
