@@ -244,7 +244,10 @@ export default function Home() {
                   <div >
                       <cite className="font-semibold text-[#5A352C] not-italic">Darlyn Chainam</cite>
                     </div>
-                    <Image src="/review.jfif" width={100} height={100} className="w-[300px] h-[300px] object-cover rounded-full self-center" alt="นิดา" />
+                    <picture>
+                      <source srcSet="/review.jfif" media="(min-width: 768px)" />
+                      <source srcSet="/review2.jpg" media="(min-width: 768px)" />
+                    </picture>
                   </footer>
                 </article>
 
